@@ -96,7 +96,7 @@ int main() {
             int sleep_time = 2;
             sleep(sleep_time);
             Move allMoves[MAX_MOVES];
-            int depth = 2;
+            int depth = 3;
             char charAllottedToComputer = (userChar == 'R') ? 'B' : 'R';
             Move bestComputerMove = returnBestMove(board, allMoves, charAllottedToComputer, depth);
             makeMove(&board, bestComputerMove, charAllottedToComputer);
